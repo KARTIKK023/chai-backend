@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "a big project from chai aur code in backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "chai"
   ],
   "author": "Kartik Chaudhary",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "nodemon": "^3.1.10"
+  }
 }
