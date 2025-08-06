@@ -1,1 +1,1 @@
-export const DB_NAME = 'VIDEOTUBE   '; // Name of the database
+export const DB_NAME = 'VIDEOTUBE'; // Name of the database
